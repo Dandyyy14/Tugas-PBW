@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Website Sederhana by Dandy</h1>
+
+    <div class="menu">
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Layanan</a>
+        <a href="#">Kontak</a>
+    </div>
+</header>
+
+<div class="formulir">
+
+    <!-- FORM -->
+    <div class="kiri">
+        <form action="#" method="POST">
+
+            <h2>Formulir Pendaftaran</h2>
+            <p>Silahkan isi formulir di bawah ini!</p>
+
+            <br>
+
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama">
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="pw">Password</label>
+            <input type="password" id="pw" name="pw">
+
+            <br><br>
+
+            <p>Jenis Kelamin :</p>
+            <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+            <input type="radio" name="jk" value="Perempuan"> Perempuan
+
+            <br><br>
+
+            <label for="kota">Pilih Kota :</label>
+            <select name="kota" id="kota">
+                <option value="">-- Pilih Kota --</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Karawang">Karawang</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Cikarang">Cikarang</option>
+            </select>
+
+            <br><br>
+
+            <p>Hobi :</p>
+            <input type="checkbox" name="hobi"> Musik
+            <input type="checkbox" name="hobi"> Olahraga
+            <input type="checkbox" name="hobi"> Membaca
+
+            <br><br>
+
+            <label for="pesan">Pesan tambahan</label>
+            <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+            <br><br>
+
+            <button type="submit">Daftar</button>
+
+        </form>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Bagian ini dapat diisi dengan informasi tambahan seperti pengumuman, berita, atau menu lainnya.</p>
+    </div>
+
+</div>
+
+</body>
+  </html>
